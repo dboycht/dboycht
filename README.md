@@ -27,6 +27,24 @@ Python / TypeScript / Rust / C# / JavaScript / PowerShell / HTML / CSS
 
 Full list: [Repositories](https://github.com/dboycht?tab=repositories)
 
+## Charts
+
+### Language Distribution
+
+![Language Distribution](./charts/language-distribution.svg)
+
+### Activity Heatmap
+
+![Activity Heatmap](./charts/activity-heatmap.svg)
+
+### Repository Stats
+
+![Repo Stats](./charts/repo-stats.svg)
+
+### GitHub Wrapped
+
+[View 2025 Wrapped →](https://wrapped.run/@dboycht)
+
 ## Links
 
 - Bilibili: [dboycht](https://space.bilibili.com/1507021101)
