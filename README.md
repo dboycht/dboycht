@@ -1,5 +1,11 @@
 # dboycht
 
+## Featured Projects
+
+[![ClaudeCodeHub](https://img.shields.io/badge/ClaudeCodeHub-Claude%20session%20manager-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/dboycht/ClaudeCodeHub)
+[![font-snatcher](https://img.shields.io/badge/font--snatcher-Web%20font%20detection-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/dboycht/font-snatcher)
+[![ds-usage-export](https://img.shields.io/badge/ds--usage--export-DeepSeek%20usage%20export-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/dboycht/ds-usage-export)
+
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -11,6 +17,12 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+
+<br/>
+
+![DeepSeek](https://img.shields.io/badge/DeepSeek-LLM%20API-4D6BFE?style=flat-square)
+![Claude Code](https://img.shields.io/badge/Claude_Code-Coding%20Agent-D97757?style=flat-square)
+![Vibe Coding](https://img.shields.io/badge/Vibe_Coding-AI%20pair%20programming-6e40c9?style=flat-square)
 
 ## Projects
 
