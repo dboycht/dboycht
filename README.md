@@ -52,14 +52,6 @@ Full list: [Repositories](https://github.com/dboycht?tab=repositories)
 
 ![Language Distribution](./charts/language-distribution.svg)
 
-### Top Repositories
-
-![Top Repositories](./charts/repo-stats.svg)
-
-### Activity
-
-![Activity](./charts/activity-heatmap.svg)
-
 ### GitHub Wrapped
 
 [![GitHub Wrapped](https://img.shields.io/badge/Wrapped_2025-View_Report-161b22?style=flat-square&logo=github&logoColor=white)](https://wrapped.run/@dboycht)
