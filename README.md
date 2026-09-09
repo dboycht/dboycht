@@ -29,19 +29,8 @@
 | Voice & Multimedia | [hostvoice](https://github.com/dboycht/hostvoice) | Main speaker identification and background voice suppression | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | Voice & Multimedia | [SoundMixer](https://github.com/dboycht/SoundMixer) | Virtual microphone mixer with soundboard for Windows | — |
 | Learning & Showcase | [WebStyleMuseum](https://github.com/dboycht/WebStyleMuseum) | A website style museum storing and showcasing various web styles | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
-| Localization Projects | [GitHubDeskChization](https://github.com/dboycht/GitHubDeskChization) | GitHub Desktop Chinese localization | ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) |
-| Localization Projects | [XaerosWorldMapChinese](https://github.com/dboycht/XaerosWorldMapChinese) | Xaero's World Map Chinese localization | — |
-| Localization Projects | [ComplementaryShadersChinese](https://github.com/dboycht/ComplementaryShadersChinese) | Complementary Shaders V3.4 Chinese localization | — |
 | Campus & Life | [NUAA-Snatcher](https://github.com/dboycht/NUAA-Snatcher) | NUAA course enrollment script | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| Campus & Life | [TPW](https://github.com/dboycht/TPW) | Campus errand-running tool, prebuilt Windows version | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 | Campus & Life | [totoro-heaven](https://github.com/dboycht/totoro-heaven) | Device data-stream generator for campus errand-running (learning only) | ![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) |
-| Campus & Life | [Cheq](https://github.com/dboycht/Cheq) | Chemical equation practice | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| Campus & Life | [Cheq-foreign-pu](https://github.com/dboycht/Cheq-foreign-pu) | Chemical equation practice | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| Games & Fun | [2048game](https://github.com/dboycht/2048game) | 2048 game | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| Games & Fun | [life_game](https://github.com/dboycht/life_game) | Conway's Game of Life | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| Games & Fun | [Db_oh](https://github.com/dboycht/Db_oh) | Base conversion | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| Games & Fun | [simdata](https://github.com/dboycht/simdata) | Random data generation & analysis | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| Account & Config | [dboycht](https://github.com/dboycht/dboycht) | Special account files (this profile repo) | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 
 Full list: [Repositories](https://github.com/dboycht?tab=repositories)
 
