@@ -10,6 +10,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 
 ## Projects
 
@@ -33,6 +34,7 @@
 | Localization Projects | [ComplementaryShadersChinese](https://github.com/dboycht/ComplementaryShadersChinese) | Complementary Shaders V3.4 Chinese localization | — |
 | Campus & Life | [NUAA-Snatcher](https://github.com/dboycht/NUAA-Snatcher) | NUAA course enrollment script | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | Campus & Life | [TPW](https://github.com/dboycht/TPW) | Campus errand-running tool, prebuilt Windows version | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| Campus & Life | [totoro-heaven](https://github.com/dboycht/totoro-heaven) | Device data-stream generator for campus errand-running (learning only) | ![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) |
 | Campus & Life | [Cheq](https://github.com/dboycht/Cheq) | Chemical equation practice | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | Campus & Life | [Cheq-foreign-pu](https://github.com/dboycht/Cheq-foreign-pu) | Chemical equation practice | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | Games & Fun | [2048game](https://github.com/dboycht/2048game) | 2048 game | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
