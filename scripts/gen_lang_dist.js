@@ -1,4 +1,4 @@
-// Generate language-distribution.svg from GitHub API (35 repos) — manual tool, NOT run by Actions.
+// Generate language-distribution.svg from GitHub API (38 repos) — manual tool, NOT run by Actions.
 // Run: node --use-system-ca scripts/gen_lang_dist.js
 const fs = require('fs');
 const path = require('path');
@@ -15,6 +15,7 @@ const LANG_COLORS = {
   'Python': '#3572A5', 'TypeScript': '#3178c6', 'JavaScript': '#f1e05a',
   'Rust': '#dea584', 'C#': '#178600', 'HTML': '#e34c26', 'CSS': '#563d7c',
   'PowerShell': '#012456', 'Jupyter Notebook': '#DA5B0B', 'Vue': '#4FC08D',
+  'GDScript': '#355570',
 };
 
 // Language label shown in the chart (short name)

@@ -30,6 +30,7 @@
 | --- | --- | --- | --- |
 | AI Coding Ecosystem | [ClaudeCodeHub](https://github.com/dboycht/ClaudeCodeHub) | A session manager for Claude with persistent conversation storage and context control | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
 | AI Coding Ecosystem | [ds-usage-export](https://github.com/dboycht/ds-usage-export) | Export DeepSeek platform usage data (tokens & costs) beyond the 30-day UI limit | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| AI Coding Ecosystem | [dsh-cooldown-retry](https://github.com/dboycht/dsh-cooldown-retry) | Patient auto-retry for DeepSeek Harness — reads the retry delay out of an upstream 429 capacity-cooldown message | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | System & Efficiency Tools | [ToolboxPanel](https://github.com/dboycht/ToolboxPanel) | Tool and shortcut management panel | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | System & Efficiency Tools | [NewMenuManager](https://github.com/dboycht/NewMenuManager) | Windows right-click new file menu manager | ![C%23](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) |
 | System & Efficiency Tools | [pswd](https://github.com/dboycht/pswd) | Password manager | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) |
@@ -41,6 +42,8 @@
 | Voice & Multimedia | [hostvoice](https://github.com/dboycht/hostvoice) | Main speaker identification and background voice suppression | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | Voice & Multimedia | [SoundMixer](https://github.com/dboycht/SoundMixer) | Virtual microphone mixer with soundboard for Windows | — |
 | Learning & Showcase | [WebStyleMuseum](https://github.com/dboycht/WebStyleMuseum) | A website style museum storing and showcasing various web styles | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| Learning & Showcase | [learn-helper](https://github.com/dboycht/learn-helper) | Break-of-learning helper | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| Games | [cozy-sokoban](https://github.com/dboycht/cozy-sokoban) | Cozy pixel-art Sokoban puzzle game | ![GDScript](https://img.shields.io/badge/GDScript-355570?style=flat-square&logo=godotengine&logoColor=white) |
 | Campus & Life | [NUAA-Snatcher](https://github.com/dboycht/NUAA-Snatcher) | NUAA course enrollment script | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | Campus & Life | [totoro-heaven](https://github.com/dboycht/totoro-heaven) | Device data-stream generator for campus errand-running (learning only) | ![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) |
 
