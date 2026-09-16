@@ -1,62 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="264" viewBox="0 0 480 264">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="246" viewBox="0 0 480 246">
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; fill: #c9d1d9; }
     .title { font-size: 14px; font-weight: 600; fill: #f0f6fc; }
     .label { font-size: 11px; }
     .count { font-size: 11px; fill: #8b949e; }
   </style>
-  <rect width="480" height="264" rx="8" fill="#0d1117"/>
-  <text x="20" y="28" class="title">Language Distribution (38 repos)</text>
+  <rect width="480" height="246" rx="8" fill="#0d1117"/>
+  <text x="20" y="28" class="title">Language Distribution (39 repos)</text>
 
   <!-- Bar chart -->
   <g transform="translate(20, 44)">
-    <!-- Python 14/38 = 36.8% -->
+    <!-- Python 13/39 = 33.3% -->
     <text x="0" y="12" class="label">Python</text>
     <rect x="110" y="1" width="290" height="14" rx="3" fill="#3572A5"/>
-    <text x="406" y="12" class="count">14</text>
-    <!-- Other 5/38 = 13.2% -->
+    <text x="406" y="12" class="count">13</text>
+    <!-- Other 6/39 = 15.4% -->
     <text x="0" y="30" class="label">Other</text>
-    <rect x="110" y="19" width="104" height="14" rx="3" fill="#8b949e"/>
-    <text x="220" y="30" class="count">5</text>
-    <!-- JavaScript 4/38 = 10.5% -->
-    <text x="0" y="48" class="label">JavaScript</text>
-    <rect x="110" y="37" width="83" height="14" rx="3" fill="#f1e05a"/>
-    <text x="199" y="48" class="count">4</text>
-    <!-- TypeScript 4/38 = 10.5% -->
-    <text x="0" y="66" class="label">TypeScript</text>
-    <rect x="110" y="55" width="83" height="14" rx="3" fill="#3178c6"/>
-    <text x="199" y="66" class="count">4</text>
-    <!-- HTML 3/38 = 7.9% -->
-    <text x="0" y="84" class="label">HTML</text>
-    <rect x="110" y="73" width="62" height="14" rx="3" fill="#e34c26"/>
-    <text x="178" y="84" class="count">3</text>
-    <!-- C# 2/38 = 5.3% -->
-    <text x="0" y="102" class="label">C#</text>
-    <rect x="110" y="91" width="41" height="14" rx="3" fill="#178600"/>
-    <text x="157" y="102" class="count">2</text>
-    <!-- CSS 1/38 = 2.6% -->
+    <rect x="110" y="19" width="134" height="14" rx="3" fill="#8b949e"/>
+    <text x="250" y="30" class="count">6</text>
+    <!-- TypeScript 5/39 = 12.8% -->
+    <text x="0" y="48" class="label">TypeScript</text>
+    <rect x="110" y="37" width="112" height="14" rx="3" fill="#3178c6"/>
+    <text x="228" y="48" class="count">5</text>
+    <!-- JavaScript 4/39 = 10.3% -->
+    <text x="0" y="66" class="label">JavaScript</text>
+    <rect x="110" y="55" width="89" height="14" rx="3" fill="#f1e05a"/>
+    <text x="205" y="66" class="count">4</text>
+    <!-- C# 3/39 = 7.7% -->
+    <text x="0" y="84" class="label">C#</text>
+    <rect x="110" y="73" width="67" height="14" rx="3" fill="#178600"/>
+    <text x="183" y="84" class="count">3</text>
+    <!-- HTML 3/39 = 7.7% -->
+    <text x="0" y="102" class="label">HTML</text>
+    <rect x="110" y="91" width="67" height="14" rx="3" fill="#e34c26"/>
+    <text x="183" y="102" class="count">3</text>
+    <!-- CSS 1/39 = 2.6% -->
     <text x="0" y="120" class="label">CSS</text>
-    <rect x="110" y="109" width="21" height="14" rx="3" fill="#563d7c"/>
-    <text x="137" y="120" class="count">1</text>
-    <!-- GDScript 1/38 = 2.6% -->
+    <rect x="110" y="109" width="22" height="14" rx="3" fill="#563d7c"/>
+    <text x="138" y="120" class="count">1</text>
+    <!-- GDScript 1/39 = 2.6% -->
     <text x="0" y="138" class="label">GDScript</text>
-    <rect x="110" y="127" width="21" height="14" rx="3" fill="#355570"/>
-    <text x="137" y="138" class="count">1</text>
-    <!-- Jupyter 1/38 = 2.6% -->
+    <rect x="110" y="127" width="22" height="14" rx="3" fill="#355570"/>
+    <text x="138" y="138" class="count">1</text>
+    <!-- Jupyter 1/39 = 2.6% -->
     <text x="0" y="156" class="label">Jupyter</text>
-    <rect x="110" y="145" width="21" height="14" rx="3" fill="#DA5B0B"/>
-    <text x="137" y="156" class="count">1</text>
-    <!-- PowerShell 1/38 = 2.6% -->
+    <rect x="110" y="145" width="22" height="14" rx="3" fill="#DA5B0B"/>
+    <text x="138" y="156" class="count">1</text>
+    <!-- PowerShell 1/39 = 2.6% -->
     <text x="0" y="174" class="label">PowerShell</text>
-    <rect x="110" y="163" width="21" height="14" rx="3" fill="#012456"/>
-    <text x="137" y="174" class="count">1</text>
-    <!-- Rust 1/38 = 2.6% -->
+    <rect x="110" y="163" width="22" height="14" rx="3" fill="#012456"/>
+    <text x="138" y="174" class="count">1</text>
+    <!-- Rust 1/39 = 2.6% -->
     <text x="0" y="192" class="label">Rust</text>
-    <rect x="110" y="181" width="21" height="14" rx="3" fill="#dea584"/>
-    <text x="137" y="192" class="count">1</text>
-    <!-- Vue 1/38 = 2.6% -->
-    <text x="0" y="210" class="label">Vue</text>
-    <rect x="110" y="199" width="21" height="14" rx="3" fill="#4FC08D"/>
-    <text x="137" y="210" class="count">1</text>
+    <rect x="110" y="181" width="22" height="14" rx="3" fill="#dea584"/>
+    <text x="138" y="192" class="count">1</text>
   </g>
 </svg>

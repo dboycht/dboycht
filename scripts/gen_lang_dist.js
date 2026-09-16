@@ -1,4 +1,4 @@
-// Generate language-distribution.svg from GitHub API (38 repos) — manual tool, NOT run by Actions.
+// Generate language-distribution.svg from GitHub API (all public repos) — manual tool, NOT run by Actions.
 // Run: node --use-system-ca scripts/gen_lang_dist.js
 const fs = require('fs');
 const path = require('path');
