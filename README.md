@@ -52,6 +52,10 @@ Full list: [Repositories](https://github.com/dboycht?tab=repositories)
 
 ## Charts
 
+### Stars
+
+![Stars](./charts/star-chart.svg)
+
 ### Language Distribution
 
 ![Language Distribution](./charts/language-distribution.svg)

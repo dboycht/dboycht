@@ -24,6 +24,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/gen_repo_stats.py
 
+      - name: Generate Star Chart
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/gen_star_chart.py
+
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
