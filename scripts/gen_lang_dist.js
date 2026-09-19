@@ -15,7 +15,7 @@ const LANG_COLORS = {
   'Python': '#3572A5', 'TypeScript': '#3178c6', 'JavaScript': '#f1e05a',
   'Rust': '#dea584', 'C#': '#178600', 'HTML': '#e34c26', 'CSS': '#563d7c',
   'PowerShell': '#012456', 'Jupyter Notebook': '#DA5B0B', 'Vue': '#4FC08D',
-  'GDScript': '#355570',
+  'GDScript': '#355570', 'Kotlin': '#A97BFF',
 };
 
 // Language label shown in the chart (short name)

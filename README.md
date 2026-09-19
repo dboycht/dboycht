@@ -17,6 +17,7 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-355570?style=flat-square&logo=godotengine&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF?style=flat-square&logo=kotlin&logoColor=white)
 
 <br/>
 
@@ -37,7 +38,7 @@
 | System & Efficiency Tools | [fake-lockscreen](https://github.com/dboycht/fake-lockscreen) | Lightweight Windows fake lockscreen with backlight control | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | System & Efficiency Tools | [keyboard-peak](https://github.com/dboycht/keyboard-peak) | Visual keyboard click counter | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | System & Efficiency Tools | [IconConverter](https://github.com/dboycht/IconConverter) | PNG to ICO, add ICO to EXE | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| System & Efficiency Tools | [keyforge](https://github.com/dboycht/keyforge) | Turn an Android phone into a Bluetooth HID keyboard for iPad / PC / TV — no root required | — |
+| System & Efficiency Tools | [keyforge](https://github.com/dboycht/keyforge) | Turn an Android phone into a Bluetooth HID keyboard for iPad / PC / TV — no root required | ![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF?style=flat-square&logo=kotlin&logoColor=white) |
 | Browser Extensions | [font-snatcher](https://github.com/dboycht/font-snatcher) | Detect fonts on a webpage and download them as ready-to-use font files (Edge, MV3) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | Browser Extensions | [InlineTranslate](https://github.com/dboycht/InlineTranslate) | Inline translation for Edge/Chrome with custom API support | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | Voice & Multimedia | [hostvoice](https://github.com/dboycht/hostvoice) | Main speaker identification and background voice suppression | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
