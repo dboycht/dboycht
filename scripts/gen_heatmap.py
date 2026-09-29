@@ -2,7 +2,9 @@
 Generate a GitHub-style contribution heatmap SVG from public events API.
 Output: charts/activity-heatmap.svg
 """
-import json, urllib.request, datetime, sys, os
+import datetime, os
+
+from _gh_api import fetch_json
 
 USERNAME = "dboycht"
 WEEKS = 53  # one full year
@@ -13,13 +15,7 @@ COLORS = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]  # GitHub dark 
 
 def fetch_events(username):
     """Fetch up to 300 recent public events (API limit)."""
-    url = f"https://api.github.com/users/{username}/events/public?per_page=300"
-    req = urllib.request.Request(url, headers={"User-Agent": "dboycht-readme"})
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-        req.add_header("Authorization", f"token {token}")
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read())
+    return fetch_json(f"/users/{username}/events/public?per_page=300")
 
 def build_heatmap(events):
     today = datetime.date.today()

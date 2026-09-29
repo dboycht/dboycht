@@ -11,8 +11,10 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        id: checkout
 
       - name: Generate Activity Heatmap
         env:
@@ -29,7 +31,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/gen_star_chart.py
 
+      # always(): a chart step that dies on a transient API error must not skip
+      # the commit. Whatever did generate still gets pushed, and the run is red
+      # so the failure stays visible.
       - name: Commit & Push
+        if: always() && steps.checkout.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

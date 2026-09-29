@@ -7,7 +7,9 @@ zero-star repos are filtered out, so the chart never shows empty bars.
 Output: charts/star-chart.svg
 Run:    python scripts/gen_star_chart.py      (also run daily by update-charts.yml)
 """
-import json, urllib.request, os
+import os
+
+from _gh_api import fetch_json
 
 USERNAME = "dboycht"
 MIN_STARS = 1
@@ -40,13 +42,7 @@ LANG_COLORS = {
 
 
 def fetch_repos(username):
-    url = f"https://api.github.com/users/{username}/repos?per_page=100&sort=stars&direction=desc"
-    req = urllib.request.Request(url, headers={"User-Agent": "dboycht-readme"})
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-        req.add_header("Authorization", f"token {token}")
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read())
+    return fetch_json(f"/users/{username}/repos?per_page=100&sort=stars&direction=desc")
 
 
 def lang_color(lang):

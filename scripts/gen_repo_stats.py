@@ -3,7 +3,9 @@ Generate a repo stats bar chart SVG from GitHub API.
 Shows top repos by stars + forks.
 Output: charts/repo-stats.svg
 """
-import json, urllib.request, os
+import os
+
+from _gh_api import fetch_json
 
 USERNAME = "dboycht"
 TOP_N = 10
@@ -13,13 +15,7 @@ GAP = 6
 MARGIN_X, MARGIN_Y = 20, 40
 
 def fetch_repos(username):
-    url = f"https://api.github.com/users/{username}/repos?per_page=100&sort=stars&direction=desc"
-    req = urllib.request.Request(url, headers={"User-Agent": "dboycht-readme"})
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-        req.add_header("Authorization", f"token {token}")
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read())
+    return fetch_json(f"/users/{username}/repos?per_page=100&sort=stars&direction=desc")
 
 def build_chart(repos):
     # Filter out forks, take top N by stars+forks
