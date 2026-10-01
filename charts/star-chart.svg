@@ -8,17 +8,17 @@
   </style>
   <rect width="480" height="172" rx="8" fill="#0d1117"/>
   <text x="20" y="28" class="title">Stars</text>
-  <text x="20" y="44" class="subtitle">4 repos with stars &#183; 25 stars total</text>
+  <text x="20" y="44" class="subtitle">4 repos with stars &#183; 27 stars total</text>
   <text x="20" y="72" class="label">totoro-heaven</text>
   <rect x="150" y="60" width="250" height="16" rx="3" fill="#3178c6"/>
-  <text x="406" y="72" class="count">21</text>
+  <text x="406" y="72" class="count">23</text>
   <text x="20" y="98" class="label">NUAA-Snatcher</text>
-  <rect x="150" y="86" width="24" height="16" rx="3" fill="#3572A5"/>
-  <text x="180" y="98" class="count">2</text>
+  <rect x="150" y="86" width="22" height="16" rx="3" fill="#3572A5"/>
+  <text x="178" y="98" class="count">2</text>
   <text x="20" y="124" class="label">ClaudeCodeHub</text>
-  <rect x="150" y="112" width="12" height="16" rx="3" fill="#3178c6"/>
-  <text x="168" y="124" class="count">1</text>
+  <rect x="150" y="112" width="11" height="16" rx="3" fill="#3178c6"/>
+  <text x="167" y="124" class="count">1</text>
   <text x="20" y="150" class="label">nuaa-phyexp-lab</text>
-  <rect x="150" y="138" width="12" height="16" rx="3" fill="#3572A5"/>
-  <text x="168" y="150" class="count">1</text>
+  <rect x="150" y="138" width="11" height="16" rx="3" fill="#3572A5"/>
+  <text x="167" y="150" class="count">1</text>
 </svg>
