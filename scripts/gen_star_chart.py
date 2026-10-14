@@ -3,6 +3,10 @@ Generate a star chart SVG from the GitHub API.
 
 Only repositories that actually have stars are drawn (MIN_STARS = 1);
 zero-star repos are filtered out, so the chart never shows empty bars.
+The chart is capped at the TOP_N most-starred repos (2026-10-14 user choice):
+as more repos pick up a star, an uncapped chart grew to 38 rows / 1056px tall,
+which is too much of the profile page. The subtitle still reports how many
+repos and stars exist in total.
 
 Output: charts/star-chart.svg
 Run:    python scripts/gen_star_chart.py      (also run daily by update-charts.yml)
@@ -13,6 +17,7 @@ from _gh_api import fetch_json
 
 USERNAME = "dboycht"
 MIN_STARS = 1
+TOP_N = 5              # leaderboard length; the rest are summarised in the subtitle
 
 # Repos to keep off the chart (2026-09-16 user choice: localization / old
 # chemistry helpers / campus errand-running build are intentionally hidden).
@@ -63,10 +68,11 @@ def build_chart(repos):
     starred.sort(key=lambda r: (-r["stargazers_count"], r["name"]))
 
     total_stars = sum(r["stargazers_count"] for r in starred)
-    max_stars = max((r["stargazers_count"] for r in starred), default=1)
+    top = starred[:TOP_N]
+    max_stars = max((r["stargazers_count"] for r in top), default=1)
 
     rows = []
-    for i, r in enumerate(starred):
+    for i, r in enumerate(top):
         y = MARGIN_Y + i * (BAR_H + GAP)
         stars = r["stargazers_count"]
         w = max(round(stars / max_stars * BAR_MAX_W), 6)
@@ -79,7 +85,12 @@ def build_chart(repos):
     body = "\n".join(rows) if rows else (
         f'  <text x="{MARGIN_X}" y="{MARGIN_Y + 12}" class="count">no starred repositories yet</text>'
     )
-    svg_h = MARGIN_Y + max(len(starred), 1) * (BAR_H + GAP) + 8
+    svg_h = MARGIN_Y + max(len(top), 1) * (BAR_H + GAP) + 8
+
+    if len(starred) > TOP_N:
+        subtitle = f"Top {len(top)} of {len(starred)} repos with stars &#183; {total_stars} stars total"
+    else:
+        subtitle = f"{len(starred)} repos with stars &#183; {total_stars} stars total"
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{SVG_W}" height="{svg_h}" viewBox="0 0 {SVG_W} {svg_h}">
   <style>
@@ -91,7 +102,7 @@ def build_chart(repos):
   </style>
   <rect width="{SVG_W}" height="{svg_h}" rx="8" fill="#0d1117"/>
   <text x="{MARGIN_X}" y="28" class="title">Stars</text>
-  <text x="{MARGIN_X}" y="44" class="subtitle">{len(starred)} repos with stars &#183; {total_stars} stars total</text>
+  <text x="{MARGIN_X}" y="44" class="subtitle">{subtitle}</text>
 {body}
 </svg>
 """
