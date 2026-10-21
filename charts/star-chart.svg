@@ -8,20 +8,20 @@
   </style>
   <rect width="480" height="198" rx="8" fill="#0d1117"/>
   <text x="20" y="28" class="title">Stars</text>
-  <text x="20" y="44" class="subtitle">Top 5 of 38 repos with stars &#183; 73 stars total</text>
+  <text x="20" y="44" class="subtitle">Top 5 of 38 repos with stars &#183; 74 stars total</text>
   <text x="20" y="72" class="label">totoro-heaven</text>
   <rect x="150" y="60" width="250" height="16" rx="3" fill="#3178c6"/>
-  <text x="406" y="72" class="count">30</text>
+  <text x="406" y="72" class="count">31</text>
   <text x="20" y="98" class="label">NUAA-Snatcher</text>
-  <rect x="150" y="86" width="25" height="16" rx="3" fill="#3572A5"/>
-  <text x="181" y="98" class="count">3</text>
+  <rect x="150" y="86" width="24" height="16" rx="3" fill="#3572A5"/>
+  <text x="180" y="98" class="count">3</text>
   <text x="20" y="124" class="label">ClaudeCodeHub</text>
-  <rect x="150" y="112" width="17" height="16" rx="3" fill="#3178c6"/>
-  <text x="173" y="124" class="count">2</text>
+  <rect x="150" y="112" width="16" height="16" rx="3" fill="#3178c6"/>
+  <text x="172" y="124" class="count">2</text>
   <text x="20" y="150" class="label">keyforge</text>
-  <rect x="150" y="138" width="17" height="16" rx="3" fill="#A97BFF"/>
-  <text x="173" y="150" class="count">2</text>
+  <rect x="150" y="138" width="16" height="16" rx="3" fill="#A97BFF"/>
+  <text x="172" y="150" class="count">2</text>
   <text x="20" y="176" class="label">learn-helper</text>
-  <rect x="150" y="164" width="17" height="16" rx="3" fill="#3572A5"/>
-  <text x="173" y="176" class="count">2</text>
+  <rect x="150" y="164" width="16" height="16" rx="3" fill="#3572A5"/>
+  <text x="172" y="176" class="count">2</text>
 </svg>
