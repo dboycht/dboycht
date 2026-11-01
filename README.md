@@ -3,7 +3,10 @@
 ## Contact Me
 
 E-mail: dboycht@qq.com
+
 X: @dboycht
+
+**本人不添加任何国内通讯软件好友**
 
 ## Featured Projects
 
